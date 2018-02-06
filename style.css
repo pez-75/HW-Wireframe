@@ -36,12 +36,12 @@ section {
 }
 
 #full {
-	clear: both;
+	float: left;
+	display: block;
 	background: #fff;
 	color: #333;
 	padding: 20px;
 	width: 495px;
-
 }
 
 #division { 
@@ -68,30 +68,34 @@ section {
 }
 
 aside {
-	
+	display: block;
 	color: #333;
-	background: #800000;
-	width: 40%;
+	background: #fff;
+	width: 435px;
 	padding: 20px;
-	height: 200px;
+	height: 428px;
 	float: right;
 	margin-left: 30px;
+	overflow: hidden;
 
 }
 
 
 
 footer {
-	
+	display: block;
 	padding: 20px;
-  	margin-bottom: 20px;
+  	margin-bottom: 0;
   	color: #333;
   	background: #fff;
-	
+  	margin-top: 30px;	
 }
 
-.clearfix:: after {
+/*.clearfix:: after {
 	content: "";
 	display: block;
+	clear: both;
+}*/
+.clear {
 	clear: both;
 }
